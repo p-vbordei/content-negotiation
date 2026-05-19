@@ -1,6 +1,6 @@
 {
   "name": "content-negotiation",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Parse Accept / Accept-Language / Accept-Encoding HTTP headers and pick the best offered representation. Zero dependencies.",
   "keywords": [
     "http",
