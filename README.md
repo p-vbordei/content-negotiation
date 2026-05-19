@@ -2,6 +2,10 @@
 
 [![ci](https://github.com/p-vbordei/content-negotiation/actions/workflows/ci.yml/badge.svg)](https://github.com/p-vbordei/content-negotiation/actions/workflows/ci.yml)
 
+[![npm](https://img.shields.io/npm/v/content-negotiation.svg)](https://www.npmjs.com/package/content-negotiation)
+[![downloads](https://img.shields.io/npm/dm/content-negotiation.svg)](https://www.npmjs.com/package/content-negotiation)
+[![bundle](https://img.shields.io/bundlejs/size/content-negotiation)](https://bundlejs.com/?q=content-negotiation)
+
 Parse `Accept`, `Accept-Language`, `Accept-Encoding` HTTP headers and pick the best representation you can serve. Zero dependencies, modern API, types included.
 
 ```ts
