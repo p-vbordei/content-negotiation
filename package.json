@@ -1,0 +1,24 @@
+{
+  "name": "content-negotiation",
+  "version": "0.1.0",
+  "description": "Parse Accept / Accept-Language / Accept-Encoding HTTP headers and pick the best offered representation. Zero dependencies.",
+  "keywords": ["http", "accept", "content-negotiation", "language", "encoding"],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" } },
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": { "node": ">=18" },
+  "author": { "name": "Vlad Bordei", "email": "bordeivlad@gmail.com", "url": "https://github.com/p-vbordei" },
+  "license": "Apache-2.0",
+  "repository": { "type": "git", "url": "https://github.com/p-vbordei/content-negotiation.git" },
+  "bugs": { "url": "https://github.com/p-vbordei/content-negotiation/issues" },
+  "homepage": "https://github.com/p-vbordei/content-negotiation#readme",
+  "devDependencies": { "typescript": "^5.5.0", "vitest": "^2.0.0" }
+}
