@@ -1,5 +1,7 @@
 # content-negotiation
 
+[![ci](https://github.com/p-vbordei/content-negotiation/actions/workflows/ci.yml/badge.svg)](https://github.com/p-vbordei/content-negotiation/actions/workflows/ci.yml)
+
 Parse `Accept`, `Accept-Language`, `Accept-Encoding` HTTP headers and pick the best representation you can serve. Zero dependencies, modern API, types included.
 
 ```ts
